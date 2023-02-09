@@ -124,5 +124,6 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA51ecLq07kf0hQdjM8bbq8oC+kQb3Pir606PxRPilxv mouhcinedafiaa@gmail.com
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
