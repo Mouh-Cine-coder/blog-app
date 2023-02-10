@@ -8,7 +8,7 @@ header {
     margin-bottom: 2rem;
     display: flex;
 }
-header h1 a {
+header div a {
     color: red;
     text-decoration: none;
 }
