@@ -125,7 +125,11 @@ STATIC_URL = '/static/'
 # os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [BASE_DIR / 'static']
 STATIC_ROOT = BASE_DIR / "staticfiles"
+# this is for whitenoise package that make the web app to take to serve its own static files 
+# http://whitenoise.evans.io/en/latest/
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+# set redirection template name for the log in and the log out
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 
